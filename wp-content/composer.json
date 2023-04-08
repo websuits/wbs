@@ -1,0 +1,46 @@
+{
+  "name": "highfivery/nextjs-starter",
+  "description": "Next.js Starter",
+  "type": "project",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Highfivery",
+      "email": "info@highfivery.com"
+    }
+  ],
+  "repositories": {
+    "wppackagist": {
+      "type": "composer",
+      "url": "https://wpackagist.org/"
+    }
+  },
+  "extra": {
+    "installer-paths": {
+      "plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
+    }
+  },
+  "config": {
+    "platform": {
+      "php": "7.4"
+    }
+  },
+  "require": {
+    "highfivery/wordpress-gutenberg-ant-design": "dev-main",
+    "highfivery/wordpress-headless": "dev-main",
+    "ashhitch/wp-graphql-yoast-seo": "^4.21.0",
+    "wpackagist-plugin/wp-graphql": "^1.13.7",
+    "wpackagist-plugin/wordpress-seo": "^20.0",
+    "pristas-peter/wp-graphql-gutenberg": "^0.4.1",
+    "wp-graphql/wp-graphql-jwt-authentication": "^0.4.0",
+    "wp-graphql/wp-graphql-acf": "^0.6.1"
+  }
+}

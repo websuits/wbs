@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c16fe969-e8cc-4356-8924-acec292fe850" name="websuits">
+        <fileTransfer rootFolder="/mnt/home3/websuits/wp.websuits.dev" accessType="SFTP" host="185.165.184.56" port="2299" sshConfigId="f35a9626-69b2-4d47-ac01-327b4a7b2d4a" sshConfig="websuits@185.165.184.56:2299 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

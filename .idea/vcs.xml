@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nexjs-COLBYFAYOCK" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/next-wordpress-starter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nextjs-WEBDEVSTUDIOS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nextjs-wordpress-starter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wbswp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wbswp/nextjs-wordpress-starter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wbswp_bk/nextjs-wordpress-starter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-headless" vcs="Git" />
+  </component>
+</project>
