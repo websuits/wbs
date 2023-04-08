@@ -1,0 +1,35 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/wp-headless/node_modules
+/wp-headless/.pnp
+/wp-headless/.pnp.js
+
+# testing
+/wp-headless/coverage
+
+# next.js
+/wp-headless/.next/
+/wp-headless/out/
+
+# production
+/wp-headless/build
+
+# misc
+/wp-headless/.DS_Store
+/wp-headless/*.pem
+
+# debug
+/wp-headless/npm-debug.log*
+/wp-headless/yarn-debug.log*
+/wp-headless/yarn-error.log*
+
+# local env files
+/wp-headless/.env*.local
+
+# vercel
+/wp-headless/.vercel
+
+# typescript
+/wp-headless/*.tsbuildinfo
+/wp-headless/next-env.d.ts
